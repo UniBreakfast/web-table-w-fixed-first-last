@@ -1,0 +1,29 @@
+<head>
+  <link rel=stylesheet href=functional.css>
+  <link rel=stylesheet href=readability.css>
+  <link rel=stylesheet href=scrolls.css>
+  <link rel=stylesheet href=colors.css>
+  <link rel=stylesheet href=pixelperfection.css>
+</head>
+<body>
+  <div class=sTable>
+    <table>
+      <thead>
+        <tr><!-- headers go here --></tr>
+          <!-- they should be <th>, <th>, <th> ... <th> -->
+      </thead>
+      <tbody><!-- rows in <tr> go here --></tbody>
+        <!-- they should be made of <th>, <td>, <td> ... <td> -->
+      <tfoot>
+        <tr><!-- footers go here --></tr>
+          <!-- they should be <th>, <td>, <td> ... <td> -->
+      </tfoot>
+    </table>
+  </div>
+  <script>
+    rows = 500
+    columns = 20
+    cells = rows*columns // ready for a 1000 max
+  </script>
+  <script src=loremfill.js></script>
+</body>
