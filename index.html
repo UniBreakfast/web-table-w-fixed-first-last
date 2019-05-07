@@ -21,9 +21,14 @@
     </table>
   </div>
   <script>
-    rows = 500
-    columns = 20
-    cells = rows*columns // ready for a 1000 max
+    // 500 rows by 20 fields each (10,000 cells) worked fine for me
+    rows = 160
+    columns = 50
+    cells = rows*columns
   </script>
-  <script src=loremfill.js></script>
+  <!-- <script src=loremfill.js></script> -->
+  <script src=stuff.js></script>
+  <script src=stuffrnd.js></script>
+  <script src=personfill.js></script>
+  <style>td {text-align: center}</style>
 </body>
